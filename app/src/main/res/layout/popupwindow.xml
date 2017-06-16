@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="X" />
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnClose">
+
+        <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Neler Yeni ?"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" - 80 Adet Yeni Ses Eklendi\n\n - En sevdiğin sesleri artık favorilere ekleyebilirsin \n\n - Artık sesleri zil sesi ve bildirim sesi olarak ayarlayabilirsin \n\n
+  - Kritik hatalar düzeiltildi \n\n - Müzik listesinde çıkma sorunu giderildi \n\ncCc "
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+</LinearLayout>
+</RelativeLayout>

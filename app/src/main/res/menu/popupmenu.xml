@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuPaylas"
+        android:title="Paylaş"
+        />
+
+    <item
+        android:id="@+id/menuFavoriEkle"
+        android:title="Favorilere Ekle"
+        />
+
+    <item
+        android:id="@+id/menuzilSesiYap"
+        android:title="Zil Sesi Yap"
+        />
+
+    <item
+        android:id="@+id/menuBildirimSesiYap"
+        android:title="Bildirim Sesi Yap"
+        />
+
+
+
+
+
+</menu>
